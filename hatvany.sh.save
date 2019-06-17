@@ -1,0 +1,11 @@
+#!/bin/bash 
+
+echo 'Kérlek adj meg két számot'
+read i
+read j
+
+for ((szam=1, pow=$i; szam<$j; szam++))
+do
+$pow = $pow*$; done
+
+echo $pow
